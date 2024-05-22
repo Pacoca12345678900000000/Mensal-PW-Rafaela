@@ -1,0 +1,24 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="style.css">
+    <script src="script.js"></script>
+</head>
+<body>
+    <main>
+        <form id="urlForm" onsubmit="encurtarUrl(event)" method="GET">
+            <h1>Esse site foi feito para simplificar os links que você desejar</h1>
+            <p>Digite o seu link para simplificar aqui:</p>
+            <input type="text" id="caixa1" name="caixa1"><br><br>
+            <p>Digite o nome que você quer colocar no seu link:</p>
+            <input type="text" id="caixa2" name="caixa2"><br><br>
+            <input type="submit" id="enviar" value="Enviar">
+            <p>Link simplificado:</p>
+            <input type="text" id="shortUrl" name="shortUrl" readonly>
+        </form>
+    </main>
+</body>
+</html>
